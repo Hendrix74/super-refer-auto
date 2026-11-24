@@ -3,6 +3,9 @@ on:
   schedule:
     - cron: '*/10 * * * *'
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['config.json', 'auto.py', '.github/workflows/instagram.yml', 'videos/**']
 permissions:
   contents: write
 concurrency: instagram
