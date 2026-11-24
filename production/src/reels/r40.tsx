@@ -1,8 +1,8 @@
 import React from 'react';
-import {AbsoluteFill, useCurrentFrame} from 'remotion';
+import {AbsoluteFill, useCurrentFrame, OffthreadVideo, staticFile} from 'remotion';
 import {Logo, OR} from '../lib';
 // Réel court sans voix (7,6 s) : une bille roule vers le bord de la table, tombe, puis 3 mots et l'appel à commenter.
-export const dur = 7.6;
+export const dur = 7.15;
 const CREAM = '#F7F5F0', INK = '#141412';
 const cl = (x: number) => Math.max(0, Math.min(1, x));
 const out3 = (x: number) => 1 - Math.pow(1 - cl(x), 3);
@@ -38,7 +38,10 @@ const Cta: React.FC<{t: number}> = ({t}) => { const a = (d: number) => ({opacity
     <div style={{position: 'absolute', top: 1270, ...a(1.1)}}><Logo s={58}/></div>
   </AbsoluteFill>; };
 
-export const R40: React.FC = () => { const t = useCurrentFrame() / 30;
-  return <AbsoluteFill style={{fontFamily: 'ID, sans-serif'}}>
-    {t < 3.0 ? <Ball t={t}/> : t < 3.8 ? <Word t={t - 3.0} w="Épuré." bg={INK} fg={CREAM}/> : t < 4.6 ? <Word t={t - 3.8} w="Moderne." bg={CREAM} fg={OR}/> : t < 5.4 ? <Word t={t - 4.6} w="Performant." bg={OR} fg="#fff"/> : <Cta t={t - 5.4}/>}
+export const R40: React.FC = () => { const t = useCurrentFrame() / 30; const G = '#141412', C = '#F7F5F0', K = 2.87;
+  const W: React.FC<{w: string; bg: string; fg: string}> = ({w, bg, fg}) => <AbsoluteFill style={{background: bg, alignItems: 'center', justifyContent: 'center'}}><div style={{fontSize: 112, fontWeight: 700, color: fg, letterSpacing: '-0.04em', textAlign: 'center', lineHeight: 1.12}}>{w.split('|').map((l, i) => <div key={i}>{l}</div>)}</div></AbsoluteFill>;
+  return <AbsoluteFill style={{fontFamily: 'ID, sans-serif', background: '#000'}}>
+    {t < K ? <><OffthreadVideo src={staticFile('egg.mp4')} muted style={{width: '100%', height: '100%', objectFit: 'cover'}}/><div style={{position: 'absolute', left: 60, right: 60, top: 1180, textAlign: 'center', fontSize: 92, fontWeight: 800, color: '#fff', letterSpacing: '-0.03em', lineHeight: 1.08, textShadow: '0 4px 24px rgba(0,0,0,.65), 0 0 4px rgba(0,0,0,.6)'}}>Besoin d'un<br/>site internet ?</div></>
+      : t < 3.73 ? <W w="qui vous rapporte|des clients." bg={G} fg={C}/> : t < 4.57 ? <W w="visible|par les IA." bg={C} fg={OR}/> : t < 5.43 ? <W w="bien placé|sur Google." bg={OR} fg="#fff"/>
+      : <AbsoluteFill style={{background: C, alignItems: 'center', justifyContent: 'center', textAlign: 'center'}}><div style={{fontSize: 84, fontWeight: 700, color: G, letterSpacing: '-0.035em', lineHeight: 1.15}}>Commentez <span style={{color: OR}}>SEO</span><br/>pour réserver<br/>votre premier échange.</div></AbsoluteFill>}
   </AbsoluteFill>; };

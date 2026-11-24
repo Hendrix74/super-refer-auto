@@ -15,3 +15,7 @@
 Idées pas encore faites : « Le bouche-à-oreille suffit-il encore ? » ; « Comment attirer des candidats avec son site ? »
 
 - R40 Besoin d'un site internet ? (7,6 s, sans voix : bille qui tombe de la table puis « Épuré. Moderne. Performant. » — mécanique reprise d'un réel de @therealkylerschwartz signalé par Théo : 3 s d'image intrigante sans rapport, 3 mots, appel à l'action)
+
+- R40 Besoin d'un site internet ? (œuf qui tombe, 7 s, sans voix ; cartons « qui vous rapporte des clients / visible par les IA / bien placé sur Google » ; mécanique du réel @therealkylerschwartz signalé par Théo)
+- R41 même mécanique avec une frappe de ballon (clip Pexels 38173684, libre de droits)
+- R42 typographie cinétique « On ne fait pas que des sites. On vous apporte… » (mécanique du réel @marq.now signalé par Théo)
