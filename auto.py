@@ -75,8 +75,29 @@ def answer_comments():
             STATE['replied'].append(c['id'])
 
 
+def collect_stats():
+    """Une fois par heure : statistiques des réels (pour l'apprentissage), écrites dans stats.json."""
+    if NOW.minute >= 10 and os.path.exists(os.path.join(HERE, 'stats.json')): return
+    metrics = 'reach,views,likes,comments,shares,saved,total_interactions,ig_reels_avg_watch_time,ig_reels_video_view_total_time'
+    media = call('GET', f'/{IG_ID}/media', {'fields': 'id,caption,timestamp,permalink,media_product_type', 'limit': 50}).get('data', [])
+    out = []
+    for m in media:
+        if m.get('media_product_type') != 'REELS': continue
+        ins = call('GET', f"/{m['id']}/insights", {'metric': metrics})
+        vals = {d['name']: (d.get('values') or [{}])[0].get('value', d.get('total_value', {}).get('value')) for d in ins.get('data', [])}
+        file = next((k for k, v in STATE['published'].items() if v.get('media_id') == m['id']), None)
+        out.append({'media_id': m['id'], 'fichier': file, 'publie_le': m.get('timestamp'), 'lien': m.get('permalink'),
+                    'legende_debut': (m.get('caption') or '')[:80], 'stats': vals, 'erreur': ins.get('error', '')[:200] if ins.get('error') else ''})
+    json.dump({'mis_a_jour': NOW.isoformat(), 'reels': out}, open(os.path.join(HERE, 'stats.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    print('Statistiques :', len(out), 'réels')
+
+
 if __name__ == '__main__':
     publish_due()
     answer_comments()
+    try:
+        collect_stats()
+    except Exception as e:
+        print('Statistiques indisponibles :', e)
     STATE['replied'] = STATE['replied'][-2000:]
     json.dump(STATE, open(STATE_F, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)

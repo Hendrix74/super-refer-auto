@@ -25,7 +25,7 @@ pip install --break-system-packages numpy scipy soundfile
 Si `/usr/bin/google-chrome` manque : créer un lanceur qui exécute `/opt/pw-browsers/chromium*/…/chrome --no-sandbox "$@"`.
 
 ### 1. Apprendre
-- Instagram : pour chaque réel publié (`state.json` → `published`), lire les statistiques (portée, vues, durée moyenne de visionnage, enregistrements, partages, commentaires). Nécessite la permission `instagram_manage_insights` (à ajouter à la clé).
+- Instagram : `stats.json` (mis à jour chaque heure par GitHub Actions) : portée, vues, durée moyenne de visionnage, temps total, enregistrements, partages, commentaires de chaque réel.
 - YouTube : API YouTube Analytics (autorisation déjà donnée au script Apps Script « Réponses YouTube Super Refer ») : vues, durée moyenne, courbe de rétention (`audienceWatchRatio` par `elapsedVideoTimeRatio`).
 - Croiser avec le script et les scènes du réel (`production/spec/rNN_t.json`, `production/src/reels/rNN.tsx`) : où les gens décrochent, quels hooks / formats retiennent. Écrire les conclusions dans `LECONS.md` (daté, règles courtes et actionnables).
 
