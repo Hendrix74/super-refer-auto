@@ -29,8 +29,11 @@ Si `/usr/bin/google-chrome` manque : créer un lanceur qui exécute `/opt/pw-bro
 - YouTube : API YouTube Analytics (autorisation déjà donnée au script Apps Script « Réponses YouTube Super Refer ») : vues, durée moyenne, courbe de rétention (`audienceWatchRatio` par `elapsedVideoTimeRatio`).
 - Croiser avec le script et les scènes du réel (`production/spec/rNN_t.json`, `production/src/reels/rNN.tsx`) : où les gens décrochent, quels hooks / formats retiennent. Écrire les conclusions dans `LECONS.md` (daté, règles courtes et actionnables).
 
-### 2. Trouver l'idée
-- Regarder les réels récents qui ont fonctionné (vues/likes nettement au-dessus de la moyenne du compte) : agences SEO américaines qui parlent aux grosses entreprises, Neil Patel (@neilpatel), puis comptes FR (qs_seo, Amandine Bart, forgeone_…).
+### 2. Trouver l'idée (phase d'analyse : prendre le temps, la qualité prime)
+- Chercher ce qui marche **en ce moment**, partout : réels et carrousels Instagram, TikTok, LinkedIn, YouTube Shorts, articles et tendances du moment (actualité Google/IA, nouveautés des moteurs de recherche, sujets dont parlent les patrons). Agences SEO américaines qui parlent aux grosses entreprises, Neil Patel (@neilpatel), comptes FR (qs_seo, Amandine Bart, forgeone_…), mais aussi des comptes hors SEO (business, vente, marketing) dont un format cartonne.
+- Ne garder que les contenus nettement au-dessus de la moyenne de leur compte, et noter **pourquoi** ils marchent : formule du hook, structure, rythme, format.
+- Reprendre la **mécanique**, jamais les mots, et la transposer à notre cible. Exemple donné par Théo : un carrousel qui a cartonné commençait par « Si tu as moins de 3 000 followers, ce post est pour toi » → pour nous : « Si vous cherchez à augmenter vos ventes, cette vidéo est pour vous. »
+- Noter la source d'inspiration et la mécanique reprise dans `SUJETS.md`, pour mesurer ensuite quelles mécaniques marchent chez nous.
 - Vérifier dans `SUJETS.md` que le sujet n'a pas déjà été traité.
 
 ### 3-4. Écrire en appliquant `LECONS.md`
