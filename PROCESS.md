@@ -49,7 +49,7 @@ Script de voix complet, texte à l'écran (phrases courtes, mots clés en orange
 7. Rendu 4K : `npx remotion render src/index.tsx RNN out/RNN_4k.tmp.mp4 --browser-executable=/usr/bin/google-chrome --scale=2 --concurrency=2 --crf=17 --jpeg-quality=92 --log=error`, renommer, puis `./mux.sh RNN rNN SuperRefer_ReelNN_Sujet_4K.mp4`.
 
 ### 6. Publier
-- `videos/reelNN.mp4` : version Instagram 1080×1920 (Instagram refuse la 4K par l'API).
+- `videos/reelNN.mp4` : version Instagram 1080×1920 (la 4K est réservée à YouTube).
 - `videos/yt/reelNN.mp4` : la version 4K.
 - Ajouter l'entrée dans `config.json` → `schedule` (`file`, `at` heure de Paris, `titre`), commit + push.
 - Créneaux du jour : 08:30, 10:30, 12:30, 15:00, 18:00, 20:30.

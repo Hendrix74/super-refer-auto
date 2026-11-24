@@ -39,13 +39,11 @@ def publish_due():
         if dt.datetime.fromisoformat(item['at']) > NOW: continue
         path = os.path.join(HERE, 'videos', key); size = os.path.getsize(path)
         print('Publication', key)
-        c = call('POST', f'/{IG_ID}/media', {'media_type': 'REELS', 'upload_type': 'resumable', 'caption': CFG['caption'], 'share_to_feed': 'true'})
+        url = 'https://raw.githubusercontent.com/Hendrix74/super-refer-auto/main/videos/' + key
+        c = call('POST', f'/{IG_ID}/media', {'media_type': 'REELS', 'video_url': url, 'caption': CFG['caption'], 'share_to_feed': 'true'})
         cid = c.get('id')
         if not cid: continue
-        up = call('POST', f'https://rupload.facebook.com/ig-api-upload/v21.0/{cid}', {}, data=open(path, 'rb').read(),
-                  headers={'Authorization': 'OAuth ' + TOKEN, 'offset': '0', 'file_size': str(size), 'Content-Type': 'application/octet-stream'})
-        print('  envoi', up)
-        for _ in range(60):
+        for _ in range(36):
             st = call('GET', f'/{cid}', {'fields': 'status_code,status'})
             if st.get('status_code') in ('FINISHED', 'ERROR', 'EXPIRED'): break
             time.sleep(10)
