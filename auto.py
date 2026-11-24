@@ -66,7 +66,7 @@ def answer_comments():
             if c['id'] in STATE['replied'] or c.get('username') == 'super_refer': continue
             if dt.datetime.fromisoformat(c['timestamp'].replace('+0000', '+00:00')) < since: continue
             if not SEO.search(c.get('text', '')): continue
-            print('Commentaire SEO de', c.get('username'), c['id'])
+            print('Commentaire SEO', c['id'])
             dm = call('POST', '/me/messages', data=json.dumps({'recipient': {'comment_id': c['id']}, 'message': {'text': CFG['dm']}}).encode(),
                       headers={'Content-Type': 'application/json'})
             print('  message privé', 'ok' if dm.get('message_id') or dm.get('recipient_id') else dm)
