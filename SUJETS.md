@@ -1,0 +1,15 @@
+# Sujets déjà traités (ne pas refaire)
+
+- R29 Le test des dix secondes (le site compris en 10 s ?)
+- R30 Le test du paragraphe (le texte qui ne dit rien)
+- R31 La page blanche : le joli site que l'IA voit vide
+- R32 Le puits (le site comme investissement qui rapporte toute l'année)
+- R33 Le commercial qui ne dort jamais
+- R34 Le calcul (CA généré par le référencement)
+- R35 Le salarié (une page qui travaille comme un salarié)
+- R36 Le fichier spécial IA (llms.txt, balisage magique : Google dit que non)
+- R37 Comment obtenir plus de rendez-vous qualifiés ? (pages service × ville + bouton devis)
+- R38 Comment passer devant ses concurrents sur Google ? (une page par recherche, preuves, liens)
+- R39 Comment rendre son site rentable ? (être trouvé, faire agir, mesurer)
+
+Idées pas encore faites : « Le bouche-à-oreille suffit-il encore ? » ; « Comment attirer des candidats avec son site ? »

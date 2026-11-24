@@ -1,0 +1,71 @@
+{
+ "dur": 28.3,
+ "phrases": [
+  {
+   "a": 0,
+   "b": 1.86,
+   "text": "Comment obtenir plus de|*rendez-vous qualifiés ?*",
+   "instant": true
+  },
+  {
+   "a": 2.15,
+   "b": 4.76,
+   "text": "Vos clients vous cherchent|*déjà sur Google.*"
+  },
+  {
+   "a": 5.0,
+   "b": 6.64,
+   "text": "Votre *métier.*|Leur *ville.*"
+  },
+  {
+   "a": 6.83,
+   "b": 9.84,
+   "text": "Une seule page « Nos services » ?|*Ils vont chez le concurrent.*"
+  },
+  {
+   "a": 10.18,
+   "b": 11.04,
+   "text": "*La réponse :*"
+  },
+  {
+   "a": 11.26,
+   "b": 12.74,
+   "text": "Une page par service,|*et par ville.*"
+  },
+  {
+   "a": 13.02,
+   "b": 15.6,
+   "text": "Ce que vous faites.|Pour qui.|*Vos références.*"
+  },
+  {
+   "a": 15.85,
+   "b": 18.15,
+   "text": "Un bouton *devis,*|visible partout."
+  },
+  {
+   "a": 18.51,
+   "b": 20.47,
+   "text": "Ils savent déjà|*ce qu'ils veulent.*"
+  },
+  {
+   "a": 20.65,
+   "b": 21.78,
+   "text": "*Des rendez-vous qualifiés.*"
+  },
+  {
+   "a": 22.04,
+   "b": 23.97,
+   "text": "Chez Super Refer,|*on construit ces pages.*"
+  },
+  {
+   "a": 24.2,
+   "b": 24.62,
+   "text": "Commentez|*« SEO »*"
+  },
+  {
+   "a": 24.83,
+   "b": 26.73,
+   "text": "pour réserver|*votre premier échange.*"
+  }
+ ]
+}

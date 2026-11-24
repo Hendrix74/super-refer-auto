@@ -1,0 +1,75 @@
+{
+ "dur": 28.7,
+ "phrases": [
+  {
+   "a": 0.28,
+   "b": 3.54,
+   "text": "Un commercial qui bosse|*365 jours par an…*"
+  },
+  {
+   "a": 3.91,
+   "b": 5.37,
+   "text": "*Sans congés.*|Sans note de frais."
+  },
+  {
+   "a": 5.82,
+   "b": 6.25,
+   "text": "Il *existe.*"
+  },
+  {
+   "a": 6.43,
+   "b": 8.82,
+   "text": "C'est *une page*|de votre site,|bien placée sur Google."
+  },
+  {
+   "a": 9.01,
+   "b": 10.17,
+   "text": "Votre équipe|*dort,*"
+  },
+  {
+   "a": 10.31,
+   "b": 12.55,
+   "text": "*elle répond*|à l'acheteur|qui vous cherche."
+  },
+  {
+   "a": 12.92,
+   "b": 14.16,
+   "text": "Une page|*par service.*"
+  },
+  {
+   "a": 14.31,
+   "b": 14.92,
+   "text": "Une page|*par zone.*"
+  },
+  {
+   "a": 15.23,
+   "b": 16.57,
+   "text": "Chaque page,|*un commercial de plus.*"
+  },
+  {
+   "a": 16.85,
+   "b": 17.3,
+   "text": "*Concrètement :*"
+  },
+  {
+   "a": 17.5,
+   "b": 20.47,
+   "text": "Une page par *service*|et par *zone,*"
+  },
+  {
+   "a": 20.61,
+   "b": 23.0,
+   "text": "placée sur Google,|*elle ramène des devis.*"
+  },
+  {
+   "a": 23.51,
+   "b": 25.21,
+   "text": "Commentez|*« SEO »*"
+  },
+  {
+   "a": 25.52,
+   "b": 26.95,
+   "text": "pour réserver|*votre premier échange.*"
+  }
+ ]
+}

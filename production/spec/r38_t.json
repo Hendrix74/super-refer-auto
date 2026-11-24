@@ -1,0 +1,66 @@
+{
+ "dur": 30.9,
+ "phrases": [
+  {
+   "a": 0,
+   "b": 2.07,
+   "text": "Comment passer devant|*ses concurrents sur Google ?*",
+   "instant": true
+  },
+  {
+   "a": 2.37,
+   "b": 4.38,
+   "text": "Ce n'est pas une question|*de taille d'entreprise.*"
+  },
+  {
+   "a": 4.7,
+   "b": 6.74,
+   "text": "Google classe des pages,|*pas des entreprises.*"
+  },
+  {
+   "a": 7.07,
+   "b": 9.01,
+   "text": "Il affiche celle qui|*répond le mieux.*"
+  },
+  {
+   "a": 9.66,
+   "b": 11.87,
+   "text": "Votre concurrent :|*une page par service.*"
+  },
+  {
+   "a": 12.06,
+   "b": 13.38,
+   "text": "Vous :|*une seule page pour tout.*"
+  },
+  {
+   "a": 13.84,
+   "b": 16.9,
+   "text": "Pour passer devant :|*une page par recherche importante.*"
+  },
+  {
+   "a": 17.4,
+   "b": 19.67,
+   "text": "Un titre *clair.*|Une réponse *concrète.*|Des *preuves.*"
+  },
+  {
+   "a": 20.12,
+   "b": 23.12,
+   "text": "Des liens depuis des sites|*sérieux qui parlent de vous.*"
+  },
+  {
+   "a": 23.61,
+   "b": 26.13,
+   "text": "Chez Super Refer,|*on fait exactement ça.*"
+  },
+  {
+   "a": 26.32,
+   "b": 26.81,
+   "text": "Commentez|*« SEO »*"
+  },
+  {
+   "a": 26.94,
+   "b": 29.31,
+   "text": "pour réserver|*votre premier échange.*"
+  }
+ ]
+}

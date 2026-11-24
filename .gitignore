@@ -1,0 +1,4 @@
+production/node_modules/
+production/out/
+production/audio/*.wav
+production/audio/tails/

@@ -1,0 +1,80 @@
+{
+ "dur": 24.8,
+ "phrases": [
+  {
+   "a": 0.24,
+   "b": 1.2,
+   "text": "Votre site|*parle trop.*"
+  },
+  {
+   "a": 1.43,
+   "b": 2.45,
+   "text": "Le test des|*dix secondes.*"
+  },
+  {
+   "a": 2.6,
+   "b": 3.65,
+   "text": "Ouvrez votre|*page de services,*"
+  },
+  {
+   "a": 3.78,
+   "b": 4.7,
+   "text": "et lisez-la|*à voix haute.*"
+  },
+  {
+   "a": 5.21,
+   "b": 6.74,
+   "text": "« Fondée|en *1998…* »"
+  },
+  {
+   "a": 6.99,
+   "b": 7.6,
+   "text": "« Une équipe|*passionnée…* »"
+  },
+  {
+   "a": 7.6,
+   "b": 8.21,
+   "text": "« Des valeurs|*fortes…* »"
+  },
+  {
+   "a": 8.46,
+   "b": 9.39,
+   "text": "Toujours rien sur|*ce que vous vendez ?*"
+  },
+  {
+   "a": 9.72,
+   "b": 10.85,
+   "text": "Votre acheteur est|*déjà parti.*"
+  },
+  {
+   "a": 11.22,
+   "b": 13.09,
+   "text": "Google non plus|*ne comprend pas.*"
+  },
+  {
+   "a": 13.5,
+   "b": 14.96,
+   "text": "Une bonne page le dit|*dès la 1re phrase :*"
+  },
+  {
+   "a": 15.3,
+   "b": 16.28,
+   "text": "*Quoi,* pour qui,|*où.*"
+  },
+  {
+   "a": 16.71,
+   "b": 19.32,
+   "text": "On réécrit vos pages|pour qu'elles répondent|*tout de suite.*"
+  },
+  {
+   "a": 19.6,
+   "b": 21.3,
+   "text": "Commentez|*« SEO »*"
+  },
+  {
+   "a": 21.61,
+   "b": 23.04,
+   "text": "pour réserver|*votre premier échange.*"
+  }
+ ]
+}

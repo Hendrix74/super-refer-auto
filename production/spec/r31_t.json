@@ -1,0 +1,95 @@
+{
+ "dur": 29.9,
+ "phrases": [
+  {
+   "a": 0.3,
+   "b": 1.07,
+   "text": "Vous voyez|*un beau site.*"
+  },
+  {
+   "a": 1.19,
+   "b": 2.3,
+   "text": "ChatGPT voit|*une page blanche.*"
+  },
+  {
+   "a": 2.74,
+   "b": 5.36,
+   "text": "Beaucoup de sites|s'affichent avec du *code*|*qui tourne chez vous.*"
+  },
+  {
+   "a": 5.7,
+   "b": 6.39,
+   "text": "Vous,|*vous voyez tout.*"
+  },
+  {
+   "a": 6.63,
+   "b": 8.34,
+   "text": "Les robots des IA|lisent *la page brute.*"
+  },
+  {
+   "a": 8.53,
+   "b": 9.65,
+   "text": "Dans la page brute :|*presque rien.*"
+  },
+  {
+   "a": 10.03,
+   "b": 10.56,
+   "text": "Pas vos|*services.*"
+  },
+  {
+   "a": 10.56,
+   "b": 11.2,
+   "text": "Pas vos|*références.*"
+  },
+  {
+   "a": 11.2,
+   "b": 11.73,
+   "text": "Pas votre|*ville.*"
+  },
+  {
+   "a": 11.96,
+   "b": 13.54,
+   "text": "Quand un acheteur|*demande à l'IA…*"
+  },
+  {
+   "a": 13.87,
+   "b": 14.6,
+   "text": "*vous n'existez pas.*"
+  },
+  {
+   "a": 15.23,
+   "b": 17.51,
+   "text": "Le test : clic droit,|*« Afficher le|code source »*"
+  },
+  {
+   "a": 18.0,
+   "b": 18.82,
+   "text": "Cherchez le nom|*de votre métier.*"
+  },
+  {
+   "a": 19.36,
+   "b": 20.48,
+   "text": "Introuvable ?|*Le problème est là.*"
+  },
+  {
+   "a": 21.06,
+   "b": 23.22,
+   "text": "Des sites lisibles|par *les humains…*"
+  },
+  {
+   "a": 23.71,
+   "b": 24.24,
+   "text": "… et par|*les robots.*"
+  },
+  {
+   "a": 24.76,
+   "b": 26.46,
+   "text": "Commentez|*« SEO »*"
+  },
+  {
+   "a": 26.77,
+   "b": 28.2,
+   "text": "pour réserver|*votre premier échange.*"
+  }
+ ]
+}

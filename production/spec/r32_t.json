@@ -1,0 +1,75 @@
+{
+ "dur": 24.1,
+ "phrases": [
+  {
+   "a": 0.28,
+   "b": 1.19,
+   "text": "Coupez votre|*budget pub demain.*"
+  },
+  {
+   "a": 1.58,
+   "b": 2.87,
+   "text": "Combien de devis|*lundi ?*"
+  },
+  {
+   "a": 3.39,
+   "b": 3.59,
+   "text": "*Zéro.*"
+  },
+  {
+   "a": 4.0,
+   "b": 4.71,
+   "text": "La pub, c'est|*un robinet :*"
+  },
+  {
+   "a": 4.9,
+   "b": 5.6,
+   "text": "vous payez,|*ça coule.*"
+  },
+  {
+   "a": 5.62,
+   "b": 6.58,
+   "text": "Vous arrêtez…|*plus rien.*"
+  },
+  {
+   "a": 7.01,
+   "b": 8.14,
+   "text": "Le référencement,|c'est *un puits.*"
+  },
+  {
+   "a": 8.65,
+   "b": 11.61,
+   "text": "Une page bien placée|travaille *le dimanche,*|*en août, à 3 h du matin.*"
+  },
+  {
+   "a": 11.81,
+   "b": 13.57,
+   "text": "Plus elle dure,|*moins chaque client|vous coûte.*"
+  },
+  {
+   "a": 13.85,
+   "b": 14.3,
+   "text": "*Concrètement :*"
+  },
+  {
+   "a": 14.56,
+   "b": 17.41,
+   "text": "On positionne votre site|sur *les recherches|de vos clients,*"
+  },
+  {
+   "a": 17.58,
+   "b": 18.54,
+   "text": "et on le suit|*chaque mois.*"
+  },
+  {
+   "a": 18.93,
+   "b": 20.63,
+   "text": "Commentez|*« SEO »*"
+  },
+  {
+   "a": 20.94,
+   "b": 22.37,
+   "text": "pour réserver|*votre premier échange.*"
+  }
+ ]
+}

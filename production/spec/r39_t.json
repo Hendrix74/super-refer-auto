@@ -1,0 +1,71 @@
+{
+ "dur": 29.6,
+ "phrases": [
+  {
+   "a": 0,
+   "b": 1.83,
+   "text": "Comment rendre son site|*internet rentable ?*",
+   "instant": true
+  },
+  {
+   "a": 2.18,
+   "b": 3.37,
+   "text": "Un beau site,|*ça ne suffit pas.*"
+  },
+  {
+   "a": 3.61,
+   "b": 6.54,
+   "text": "Un site qu'on *trouve,*|et qui fait *agir.*"
+  },
+  {
+   "a": 6.84,
+   "b": 7.65,
+   "text": "*1. Être trouvé*"
+  },
+  {
+   "a": 8.09,
+   "b": 9.67,
+   "text": "Des pages sur ce que|*vos clients cherchent.*"
+  },
+  {
+   "a": 10.02,
+   "b": 11.05,
+   "text": "*2. Faire agir*"
+  },
+  {
+   "a": 11.4,
+   "b": 13.55,
+   "text": "Appel, devis, rendez-vous :|*en un clic.*"
+  },
+  {
+   "a": 14.02,
+   "b": 14.94,
+   "text": "*3. Mesurer*"
+  },
+  {
+   "a": 15.25,
+   "b": 17.43,
+   "text": "Combien de demandes|*par le site, chaque mois.*"
+  },
+  {
+   "a": 17.96,
+   "b": 20.75,
+   "text": "À zéro, le site|*vous coûte.*"
+  },
+  {
+   "a": 21.41,
+   "b": 24.53,
+   "text": "Chez Super Refer, on construit|*des sites qui génèrent des demandes.*"
+  },
+  {
+   "a": 24.98,
+   "b": 26.51,
+   "text": "Commentez|*« SEO »*"
+  },
+  {
+   "a": 26.96,
+   "b": 28.02,
+   "text": "pour réserver|*votre premier échange.*"
+  }
+ ]
+}
