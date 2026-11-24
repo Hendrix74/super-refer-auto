@@ -1,0 +1,23 @@
+name: Instagram Super Refer
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: instagram
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 auto.py
+        env:
+          IG_PAGE_TOKEN: ${{ secrets.IG_PAGE_TOKEN }}
+      - name: Enregistrer l'état
+        run: |
+          git config user.name "super-refer-bot"
+          git config user.email "bot@super-refer.fr"
+          git add state.json
+          git diff --cached --quiet || (git commit -m "État Instagram" && git push)
