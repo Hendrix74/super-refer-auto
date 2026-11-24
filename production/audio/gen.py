@@ -148,8 +148,11 @@ place(sfx,pop(880)*0.8,ct['type']+0.72); place(sfx,whoosh(0.3)*0.6,ct['card']-0.
 place(sfx,ring(),ct['t30']); place(sfx,ring(),ct['t30']+0.62); place(sfx,chime((1568,2093),0.1,0.2),ct['t30']+0.05)
 place(sfx,thud()*0.7,SOL+0.3); place(sfx,chime((1047,1568),0.06,0.16),SOL+0.32); place(sfx,riser(0.45)*0.8,SOL-0.4)
 
-sr,v=wavfile.read(CFG['voice']); v=v.astype(np.float64)/32768.0
-v=resample_poly(v,SR,sr); v=filt(v,'high',70); v=v/np.max(np.abs(v))*0.89
+if CFG.get('voice'):
+    sr,v=wavfile.read(CFG['voice']); v=v.astype(np.float64)/32768.0
+    v=resample_poly(v,SR,sr); v=filt(v,'high',70); v=v/np.max(np.abs(v))*0.89
+else:
+    v=np.zeros(1)  # réel sans voix
 voice=np.zeros(N); voice[:len(v)]=v[:N]
 e=np.abs(voice); win=int(0.05*SR); e=np.convolve(e,np.ones(win)/win,'same')
 a_att=np.exp(-1/(0.02*SR)); a_rel=np.exp(-1/(0.28*SR)); sm=np.zeros(N); p=0.0
@@ -160,5 +163,5 @@ music[int((DUR-0.6)*SR):]*=np.linspace(1,0,N-int((DUR-0.6)*SR))[:,None]
 mix=np.stack([voice,voice],1)+music*0.50+sfx*0.40
 pk=np.max(np.abs(mix)); mix=mix/max(pk,1)*0.97
 def rms(x): return 20*np.log10(np.sqrt(np.mean(x**2))+1e-9)
-print(CFG['out'],'crête',round(pk,2),'voix',round(rms(voice[np.abs(voice)>1e-4]),1),'musique',round(rms(music*0.5),1),'bruitages',round(rms(sfx*0.4),1))
+print(CFG['out'],'crête',round(pk,2),'voix',round(rms(voice[np.abs(voice)>1e-4]),1) if CFG.get('voice') else 'aucune','musique',round(rms(music*0.5),1),'bruitages',round(rms(sfx*0.4),1))
 wavfile.write(CFG['out'],SR,(mix*32767).astype(np.int16))

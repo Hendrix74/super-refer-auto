@@ -13,3 +13,5 @@
 - R39 Comment rendre son site rentable ? (être trouvé, faire agir, mesurer)
 
 Idées pas encore faites : « Le bouche-à-oreille suffit-il encore ? » ; « Comment attirer des candidats avec son site ? »
+
+- R40 Besoin d'un site internet ? (7,6 s, sans voix : bille qui tombe de la table puis « Épuré. Moderne. Performant. » — mécanique reprise d'un réel de @therealkylerschwartz signalé par Théo : 3 s d'image intrigante sans rapport, 3 mots, appel à l'action)
