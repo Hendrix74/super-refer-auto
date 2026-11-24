@@ -19,3 +19,4 @@ Idées pas encore faites : « Le bouche-à-oreille suffit-il encore ? » ; « Co
 - R40 Besoin d'un site internet ? (œuf qui tombe, 7 s, sans voix ; cartons « qui vous rapporte des clients / visible par les IA / bien placé sur Google » ; mécanique du réel @therealkylerschwartz signalé par Théo)
 - R41 même mécanique avec une frappe de ballon (clip Pexels 38173684, libre de droits)
 - R42 typographie cinétique « On ne fait pas que des sites. On vous apporte… » (mécanique du réel @marq.now signalé par Théo)
+- R43 texte fixe au centre sur fonds graphiques qui défilent très vite (mécanique du réel de logo MadiLinks signalé par Théo), mêmes textes que R40
