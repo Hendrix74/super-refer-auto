@@ -1,11 +1,11 @@
 {
- "mis_a_jour": "2026-11-25T13:02:32.220673+00:00",
+ "mis_a_jour": "2026-11-25T14:02:11.978379+00:00",
  "reels": [
   {
-   "media_id": "18378494821214950",
-   "fichier": "reel41.mp4",
-   "publie_le": "2026-11-25T13:03:08+0000",
-   "lien": "https://www.instagram.com/reel/DgKl3iDBSOA/",
+   "media_id": "18128015197913963",
+   "fichier": "reel46.mp4",
+   "publie_le": "2026-11-25T14:02:47+0000",
+   "lien": "https://www.instagram.com/reel/DgKssf9xHkA/",
    "legende_debut": "Commentez SEO pour réserver votre premier échange avec notre équipe.\n\nSuper Refe",
    "stats": {
     "reach": 0,
@@ -21,10 +21,10 @@
    "erreur": ""
   },
   {
-   "media_id": "18128639792297469",
-   "fichier": "reel38.mp4",
-   "publie_le": "2026-11-25T12:48:44+0000",
-   "lien": "https://www.instagram.com/reel/DgKkOxCyl4V/",
+   "media_id": "18378494821214950",
+   "fichier": "reel41.mp4",
+   "publie_le": "2026-11-25T13:03:08+0000",
+   "lien": "https://www.instagram.com/reel/DgKl3iDBSOA/",
    "legende_debut": "Commentez SEO pour réserver votre premier échange avec notre équipe.\n\nSuper Refe",
    "stats": {
     "reach": 0,
@@ -34,8 +34,27 @@
     "shares": 0,
     "saved": 0,
     "total_interactions": 0,
-    "ig_reels_avg_watch_time": 0,
-    "ig_reels_video_view_total_time": 0
+    "ig_reels_avg_watch_time": 15438,
+    "ig_reels_video_view_total_time": 15438
+   },
+   "erreur": ""
+  },
+  {
+   "media_id": "18128639792297469",
+   "fichier": "reel38.mp4",
+   "publie_le": "2026-11-25T12:48:44+0000",
+   "lien": "https://www.instagram.com/reel/DgKkOxCyl4V/",
+   "legende_debut": "Commentez SEO pour réserver votre premier échange avec notre équipe.\n\nSuper Refe",
+   "stats": {
+    "reach": 3,
+    "views": 4,
+    "likes": 0,
+    "comments": 0,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 0,
+    "ig_reels_avg_watch_time": 834,
+    "ig_reels_video_view_total_time": 2502
    },
    "erreur": ""
   },
@@ -91,8 +110,8 @@
     "shares": 0,
     "saved": 0,
     "total_interactions": 0,
-    "ig_reels_avg_watch_time": 8837,
-    "ig_reels_video_view_total_time": 17674
+    "ig_reels_avg_watch_time": 7930,
+    "ig_reels_video_view_total_time": 23792
    },
    "erreur": ""
   },
@@ -103,15 +122,15 @@
    "lien": "https://www.instagram.com/reel/DgIqqG9lCck/",
    "legende_debut": "Commentez SEO pour réserver votre premier échange avec notre équipe.\n\nSuper Refe",
    "stats": {
-    "reach": 4,
-    "views": 4,
+    "reach": 5,
+    "views": 5,
     "likes": 0,
     "comments": 0,
     "shares": 0,
-    "saved": 0,
-    "total_interactions": 0,
-    "ig_reels_avg_watch_time": 6249,
-    "ig_reels_video_view_total_time": 37498
+    "saved": 1,
+    "total_interactions": 1,
+    "ig_reels_avg_watch_time": 5451,
+    "ig_reels_video_view_total_time": 43609
    },
    "erreur": ""
   },
