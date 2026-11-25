@@ -1,0 +1,17 @@
+{
+ "dur": 31.2,
+ "phrases": [
+  {"a": 0, "b": 2.96, "text": "Comment savoir ce que vos clients|*tapent sur Google ?*", "instant": true},
+  {"a": 3.74, "b": 5.94, "text": "Un outil *gratuit,*|*en 3 étapes*"},
+  {"a": 6.68, "b": 9.1, "text": "*1.* Ouvrez la|*Search Console*"},
+  {"a": 10.02, "b": 12.45, "text": "*2.* Performances|*› Requêtes*"},
+  {"a": 13.34, "b": 14.81, "text": "Les mots exacts|*de vos clients*"},
+  {"a": 15.63, "b": 19.05, "text": "*3.* Souvent affichés,|*peu cliqués*"},
+  {"a": 19.82, "b": 21.74, "text": "Réécrivez le titre|*avec ces mots*"},
+  {"a": 22.65, "b": 23.54, "text": "Google vous dit|*quoi écrire.*"},
+  {"a": 24.22, "b": 24.79, "text": "Il suffit de|*l'écouter.*"},
+  {"a": 25.8, "b": 27.98, "text": "Chez Super Refer, on pilote|*votre référencement.*"},
+  {"a": 28.65, "b": 29.6, "text": "Commentez|*« SEO »*"},
+  {"a": 29.6, "b": 31.02, "text": "pour réserver|*votre premier échange.*"}
+ ]
+}

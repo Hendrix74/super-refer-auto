@@ -1,0 +1,19 @@
+{
+ "dur": 32.5,
+ "phrases": [
+  {"a": 0, "b": 2.59, "text": "Faut-il plus de pub|*pour plus de clients ?*", "instant": true},
+  {"a": 3.12, "b": 5.6, "text": "*4 leviers* classés,|du moins au plus rentable"},
+  {"a": 6.03, "b": 8.11, "text": "Budget pub :|*rang C*"},
+  {"a": 8.63, "b": 10.17, "text": "Vous coupez :|*plus de demandes.*"},
+  {"a": 10.92, "b": 12.12, "text": "Un beau site :|*rang B*"},
+  {"a": 12.61, "b": 14.53, "text": "Joli… mais|*personne ne le trouve ?*"},
+  {"a": 15.47, "b": 17.52, "text": "Avis clients détaillés :|*rang A*"},
+  {"a": 18.28, "b": 21.57, "text": "*Rang S :* des pages qui répondent|aux questions de vos acheteurs"},
+  {"a": 21.97, "b": 23.36, "text": "Google les montre|*toute l'année.*"},
+  {"a": 23.87, "b": 24.67, "text": "*Donc non.*"},
+  {"a": 25.06, "b": 26.81, "text": "Avant de payer plus,|*soyez trouvé.*"},
+  {"a": 27.34, "b": 29.45, "text": "Chez Super Refer, on pilote|*votre référencement.*"},
+  {"a": 29.86, "b": 30.73, "text": "Commentez|*« SEO »*"},
+  {"a": 30.95, "b": 32.23, "text": "pour réserver|*votre premier échange.*"}
+ ]
+}

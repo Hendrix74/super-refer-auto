@@ -1,0 +1,18 @@
+{
+ "dur": 28.68,
+ "phrases": [
+  {"a": 0, "b": 2.19, "text": "Pourquoi vos articles|*ne ramènent aucun client ?*", "instant": true},
+  {"a": 2.62, "b": 4.15, "text": "*3 erreurs*|et quoi faire à la place"},
+  {"a": 4.63, "b": 6.0, "text": "*1.* Écrire|toujours du neuf"},
+  {"a": 6.56, "b": 8.99, "text": "Mettez à jour les pages|*déjà en page 2*"},
+  {"a": 9.66, "b": 11.59, "text": "*2.* Viser des mots|trop larges"},
+  {"a": 12.02, "b": 13.8, "text": "Visez la recherche|*précise de votre acheteur*"},
+  {"a": 14.78, "b": 15.82, "text": "*3.* Parler de vous"},
+  {"a": 16.33, "b": 19.55, "text": "Répondez à ses questions :|*prix, délais, comparatifs*"},
+  {"a": 20.19, "b": 21.58, "text": "Le problème, ce n'est pas|la quantité."},
+  {"a": 21.87, "b": 22.41, "text": "*C'est la cible.*"},
+  {"a": 22.88, "b": 25.23, "text": "Chez Super Refer, on pilote|*votre référencement.*"},
+  {"a": 25.68, "b": 26.81, "text": "Commentez|*« SEO »*"},
+  {"a": 27.17, "b": 28.39, "text": "pour réserver|*votre premier échange.*"}
+ ]
+}
