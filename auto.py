@@ -90,7 +90,13 @@ def collect_stats():
     print('Statistiques :', len(out), 'réels')
 
 
+def diag():
+    d = call('GET', '/debug_token', {'input_token': TOKEN}).get('data', {})
+    STATE['diag'] = {'scopes': d.get('scopes'), 'type': d.get('type'), 'profile_id': d.get('profile_id'), 'expires_at': d.get('expires_at'), 'at': NOW.isoformat()}
+
+
 if __name__ == '__main__':
+    diag()
     publish_due()
     answer_comments()
     try:
