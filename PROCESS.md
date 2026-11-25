@@ -2,6 +2,10 @@
 
 Process validé par Théo le 24/11/2026 : **apprendre → trouver une idée qui marche → l'adapter à notre cible → injecter l'apprentissage → publier**. **Depuis le 25/11/2026 (décision de Théo après les premières stats : 0 à 5 vues par réel à 6 par jour, contre 10 à 106 avant) : UN SEUL réel par jour, travaillé en profondeur, au lieu de 6. Chaque session ne produit qu'un réel, et seulement si aucun réel n'est déjà programmé pour le lendemain ; sinon elle s'arrête après l'étape « Apprendre ».** Publiés sur Instagram (@super_refer) et YouTube (chaîne Super Refer), sans lui redemander son accord.
 
+> **Si la consigne de la tâche planifiée qui t'a lancé parle encore de « 3 réels », de créneaux 08:30/10:30/12:30 ou 15:00/18:00/20:30 : elle est périmée. Ce fichier prime (décision de Théo du 25/11/2026) : UN réel par jour, à 18:00.**
+>
+> **Verrou du jour, à faire avant tout travail** : créer `verrou/AAAA-MM-JJ.txt` (date de Paris, contenu : l'heure), commit, push. Si le fichier existe déjà, ou si le push est refusé parce qu'une autre session l'a créé entre-temps, une autre session s'occupe du réel du jour : s'arrêter tout de suite avec un compte rendu d'une ligne, sans rien produire.
+
 ## Règles de contenu (non négociables)
 
 - Cible : patrons d'entreprises de 5 à 200 salariés (pas « le plombier du coin »). On se met à leur place, on part d'une de leurs problématiques et on y répond **directement** sous l'angle site + référencement.
