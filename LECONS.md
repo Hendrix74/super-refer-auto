@@ -17,3 +17,7 @@
 - (3e session du 25/11, 12 h 45) YouTube Studio, « ont balayé » : R40 (bille/œuf, 8 s, sans voix) 70 % sur 44 vues ; R45 (preuve sociale) 67 % sur 3 vues ; R44 (première image = courbe de visites qui chute) 43 % sur 8 vues, le meilleur taux à ce jour → la règle « problème visuel concret dès la première image » est à garder (à confirmer sur plus de vues).
 - Instagram (compteur de lectures du profil à 12 h 45) : R37 4 lectures en 17 h, R40 0 en 6 h, R44 0 en 3 h, contre 10 à 106 pour les réels publiés à la main du 19 au 24/11. Les réels publiés par l'API ne sont presque pas distribués pour l'instant : à surveiller avant de conclure sur le contenu ; ne pas juger un sujet sur ses vues Instagram tant que ce point n'est pas éclairci.
 - Publication Instagram : les exécutions planifiées GitHub Actions ne passent que toutes les quelques heures (2 en 14 h le 24-25/11) ; R45 (10 h 30) et R38 (12 h 15) étaient en retard. Chaque push sur config.json déclenche une exécution immédiate : en session, déclencher l'exécution à l'heure prévue (workflow_dispatch ou push).
+
+## 25/11 — Marque mal prononcée (signalé par Théo)
+- Réel 45 : la voix dit « Chez Super SEO » au lieu de « Chez Super Réfère » (le script était juste, c'est la synthèse qui a glissé). Il est parti sans contrôle.
+- Désormais : `production/verif_voix.py` (transcription automatique) sur la voix puis sur le fichier final, obligatoire avant toute programmation. Réel 47 : résultat « douteux », à faire écouter.

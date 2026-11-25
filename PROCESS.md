@@ -10,6 +10,8 @@ Process validé par Théo le 24/11/2026 : **apprendre → trouver une idée qui 
 - Aucun chiffre, client ou résultat inventé. Exemples à l'écran = illustrations génériques (pas de vrais clients).
 - Fin obligatoire, dite et affichée : « Chez Super Réfère, … Commentez S… E… O… pour réserver votre premier échange. »
 - Nom à l'oral : écrire « Super Réfère » dans le texte de la voix ; à l'écran : « Super Refer » (logo : S et R majuscules, espace).
+- **Contrôle obligatoire de la marque, à chaque réel, sans exception** : dès que la voix est récupérée, lancer `python3 verif_voix.py audio/rNN.wav`, puis une seconde fois sur le fichier final `videos/reelNN.mp4` avant de le programmer. Si le résultat n'est pas « OK » (la synthèse a déjà dit « Super SEO » à la place de « Super Réfère » dans le réel 45), régénérer la voix et recontrôler, jusqu'à 3 essais ; si ça échoue encore, ne pas programmer le réel et le signaler. Un réel dont le contrôle n'est pas « OK » ne part jamais.
+- Pour aider la synthèse : la phrase de marque est une phrase à part, terminée par un point, sans le mot « SEO » dedans ; « Commentez S… E… O… » vient dans la phrase suivante.
 - Durée 25-30 s. Voix Google AI Studio **Umbriel**, accélérée ×1,05 au montage. Animations sobres (mode `calm`).
 - Motion design : illustrer concrètement chaque phrase, illustrations variées (jamais les mêmes d'un réel à l'autre), pas d'effets de fond décoratifs.
 - Musique + bruitages sur chaque réel. Livraison **4K** (2160×3840).
