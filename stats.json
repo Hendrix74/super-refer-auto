@@ -1,6 +1,44 @@
 {
- "mis_a_jour": "2026-11-25T12:04:40.475768+00:00",
+ "mis_a_jour": "2026-11-25T13:02:32.220673+00:00",
  "reels": [
+  {
+   "media_id": "18378494821214950",
+   "fichier": "reel41.mp4",
+   "publie_le": "2026-11-25T13:03:08+0000",
+   "lien": "https://www.instagram.com/reel/DgKl3iDBSOA/",
+   "legende_debut": "Commentez SEO pour réserver votre premier échange avec notre équipe.\n\nSuper Refe",
+   "stats": {
+    "reach": 0,
+    "views": 0,
+    "likes": 0,
+    "comments": 0,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 0,
+    "ig_reels_avg_watch_time": 0,
+    "ig_reels_video_view_total_time": 0
+   },
+   "erreur": ""
+  },
+  {
+   "media_id": "18128639792297469",
+   "fichier": "reel38.mp4",
+   "publie_le": "2026-11-25T12:48:44+0000",
+   "lien": "https://www.instagram.com/reel/DgKkOxCyl4V/",
+   "legende_debut": "Commentez SEO pour réserver votre premier échange avec notre équipe.\n\nSuper Refe",
+   "stats": {
+    "reach": 0,
+    "views": 0,
+    "likes": 0,
+    "comments": 0,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 0,
+    "ig_reels_avg_watch_time": 0,
+    "ig_reels_video_view_total_time": 0
+   },
+   "erreur": ""
+  },
   {
    "media_id": "18155307859551197",
    "fichier": "reel45.mp4",
@@ -15,8 +53,8 @@
     "shares": 0,
     "saved": 0,
     "total_interactions": 0,
-    "ig_reels_avg_watch_time": 0,
-    "ig_reels_video_view_total_time": 0
+    "ig_reels_avg_watch_time": 36616,
+    "ig_reels_video_view_total_time": 36616
    },
    "erreur": ""
   },
@@ -34,8 +72,8 @@
     "shares": 0,
     "saved": 0,
     "total_interactions": 0,
-    "ig_reels_avg_watch_time": 10089,
-    "ig_reels_video_view_total_time": 10089
+    "ig_reels_avg_watch_time": 6304,
+    "ig_reels_video_view_total_time": 12609
    },
    "erreur": ""
   },
@@ -53,8 +91,8 @@
     "shares": 0,
     "saved": 0,
     "total_interactions": 0,
-    "ig_reels_avg_watch_time": 15342,
-    "ig_reels_video_view_total_time": 15342
+    "ig_reels_avg_watch_time": 8837,
+    "ig_reels_video_view_total_time": 17674
    },
    "erreur": ""
   },
