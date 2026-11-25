@@ -21,3 +21,7 @@
 ## 25/11 — Marque mal prononcée (signalé par Théo)
 - Réel 45 : la voix dit « Chez Super SEO » au lieu de « Chez Super Réfère » (le script était juste, c'est la synthèse qui a glissé). Il est parti sans contrôle.
 - Désormais : `production/verif_voix.py` (transcription automatique) sur la voix puis sur le fichier final, obligatoire avant toute programmation. Réel 47 : résultat « douteux », à faire écouter.
+
+## 25/11 — Changement de cap : 1 réel par jour, plus long et travaillé
+- Constat : réels du 19 au 24/11 (publiés à la main, peu nombreux) = 10 à 106 vues ; réels du 24 au 25/11 (6 par jour, même gabarit, même légende) = 0 à 5 vues.
+- Décision de Théo : refaire des réels travaillés différemment, durée utile pour répondre à la question. Les réels 39, 42, 43, 47, 48, 49 sont retirés du planning (gardés dans `config.json` → `en_reserve`, ne pas les reprogrammer sans son accord).

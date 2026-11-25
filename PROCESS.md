@@ -1,23 +1,25 @@
 # Process de production des réels Super Refer
 
-Process validé par Théo le 24/11/2026 : **apprendre → trouver une idée qui marche → l'adapter à notre cible → injecter l'apprentissage → publier**. Objectif : **6 réels par jour**, publiés sur Instagram (@super_refer) et YouTube (chaîne Super Refer), sans lui redemander son accord.
+Process validé par Théo le 24/11/2026 : **apprendre → trouver une idée qui marche → l'adapter à notre cible → injecter l'apprentissage → publier**. **Depuis le 25/11/2026 (décision de Théo après les premières stats : 0 à 5 vues par réel à 6 par jour, contre 10 à 106 avant) : UN SEUL réel par jour, travaillé en profondeur, au lieu de 6. Chaque session ne produit qu'un réel, et seulement si aucun réel n'est déjà programmé pour le lendemain ; sinon elle s'arrête après l'étape « Apprendre ».** Publiés sur Instagram (@super_refer) et YouTube (chaîne Super Refer), sans lui redemander son accord.
 
 ## Règles de contenu (non négociables)
 
 - Cible : patrons d'entreprises de 5 à 200 salariés (pas « le plombier du coin »). On se met à leur place, on part d'une de leurs problématiques et on y répond **directement** sous l'angle site + référencement.
-- Hook = la question directe du patron, ex. « Comment obtenir plus de rendez-vous qualifiés ? ». Tout le réel sur ce même ton direct : réponse concrète en 2-3 actions, pas de mise en scène.
+- Hook = la question directe du patron, ex. « Comment obtenir plus de rendez-vous qualifiés ? ». Tout le réel sur ce même ton direct : pas de mise en scène.
+- **Fond du réel (nouveau format)** : on répond vraiment à la question, comme à un patron en face de soi. Déroulé : la question → pourquoi ça arrive (la cause que le patron ne voit pas) → quoi faire, concrètement, étape par étape → un exemple générique qui rend l'idée visible (« une entreprise de maintenance industrielle qui… », sans nom ni chiffre inventé) → ce que ça change. La réponse complète arrive tard, mais chaque étape apporte quelque chose : jamais de remplissage, jamais de liste survolée « 1, 2, 3 » sans explication.
+- **Chaque réel doit être différent des précédents** : structure, rythme, illustrations, musique, première image. Interdit de réutiliser le gabarit du réel de la veille. Plus de copie fidèle d'un réel existant (même vidéo, même son) : on reprend la mécanique, avec nos images et notre son.
 - Métaphore : seulement pour expliquer une idée, jamais toute la vidéo ; fin et appel à l'action jamais dans la métaphore.
 - Aucun chiffre, client ou résultat inventé. Exemples à l'écran = illustrations génériques (pas de vrais clients).
 - Fin obligatoire, dite et affichée : « Chez Super Réfère, … Commentez S… E… O… pour réserver votre premier échange. »
 - Nom à l'oral : écrire « Super Réfère » dans le texte de la voix ; à l'écran : « Super Refer » (logo : S et R majuscules, espace).
 - **Contrôle obligatoire de la marque, à chaque réel, sans exception** : dès que la voix est récupérée, lancer `python3 verif_voix.py audio/rNN.wav`, puis une seconde fois sur le fichier final `videos/reelNN.mp4` avant de le programmer. Si le résultat n'est pas « OK » (la synthèse a déjà dit « Super SEO » à la place de « Super Réfère » dans le réel 45), régénérer la voix et recontrôler, jusqu'à 3 essais ; si ça échoue encore, ne pas programmer le réel et le signaler. Un réel dont le contrôle n'est pas « OK » ne part jamais.
 - Pour aider la synthèse : la phrase de marque est une phrase à part, terminée par un point, sans le mot « SEO » dedans ; « Commentez S… E… O… » vient dans la phrase suivante.
-- Durée 25-30 s. Voix Google AI Studio **Umbriel**, accélérée ×1,05 au montage. Animations sobres (mode `calm`).
+- **Durée libre : celle qu'il faut pour raconter et répondre, en général 35 à 60 s** (30 s si ça suffit, jamais d'allongement artificiel). On juge sur la durée moyenne de visionnage, pas sur la longueur. Voix Google AI Studio **Umbriel**, accélérée ×1,05 au montage. Animations sobres (mode `calm`).
 - Motion design : illustrer concrètement chaque phrase, illustrations variées (jamais les mêmes d'un réel à l'autre), pas d'effets de fond décoratifs.
 - Musique + bruitages sur chaque réel. Livraison **4K** (2160×3840).
-- Légende (identique partout) : `config.json` → `caption`. Titre YouTube = hook + « #shorts ».
+- Légende **écrite pour chaque réel** (champ `caption` de l'entrée du planning ; à défaut, celle de `config.json`) : première ligne « Commentez SEO pour réserver votre premier échange avec notre équipe. », puis 2-3 phrases propres au sujet du réel avec les mots que le patron taperait, puis 3 à 5 hashtags précis choisis pour ce sujet (jamais deux jours de suite la même liste). Titre YouTube = hook + « #shorts ».
 
-## Étapes d'une session (3 réels)
+## Étapes d'une session (1 réel)
 
 ### 0. Préparer l'atelier
 ```
@@ -55,7 +57,7 @@ Script de voix complet, texte à l'écran (phrases courtes, mots clés en orange
 - `videos/reelNN.mp4` : version Instagram 1080×1920 (la 4K est réservée à YouTube).
 - `videos/yt/reelNN.mp4` : la version 4K.
 - Ajouter l'entrée dans `config.json` → `schedule` (`file`, `at` heure de Paris, `titre`), commit + push.
-- Créneaux du jour : 08:30, 10:30, 12:30, 15:00, 18:00, 20:30.
+- Un seul créneau par jour : 18:00 (à ajuster selon `LECONS.md`). Jamais deux réels le même jour.
 - Instagram : GitHub Actions toutes les 10 min (`auto.py`). YouTube : Apps Script toutes les 15 min (lit ce même `config.json`). Les Shorts peuvent sortir en privé (application non auditée) : Théo les passe en public.
 - Ajouter le sujet à `SUJETS.md`, envoyer les fichiers 4K à Théo et les copier dans ses Téléchargements.
 - Ménage : supprimer de `videos/` les fichiers publiés depuis plus de 3 jours (taille du dépôt).

@@ -40,7 +40,7 @@ def publish_due():
         path = os.path.join(HERE, 'videos', key); size = os.path.getsize(path)
         print('Publication', key)
         url = 'https://raw.githubusercontent.com/Hendrix74/super-refer-auto/main/videos/' + key
-        c = call('POST', f'/{IG_ID}/media', {'media_type': 'REELS', 'video_url': url, 'caption': CFG['caption'], 'share_to_feed': 'true'})
+        c = call('POST', f'/{IG_ID}/media', {'media_type': 'REELS', 'video_url': url, 'caption': item.get('caption') or CFG['caption'], 'share_to_feed': 'true'})
         cid = c.get('id')
         if not cid: continue
         for _ in range(36):
