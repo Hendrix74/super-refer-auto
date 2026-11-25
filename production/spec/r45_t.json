@@ -1,0 +1,15 @@
+{
+ "dur": 31.4,
+ "phrases": [
+  {"a": 0, "b": 3.13, "text": "Comment transformer vos visiteurs|*en demandes de devis ?*", "instant": true},
+  {"a": 3.67, "b": 5.88, "text": "Dire ce que vous faites :|*une promesse.*"},
+  {"a": 6.36, "b": 8.69, "text": "Montrer des clients satisfaits :|*une preuve.*"},
+  {"a": 9.31, "b": 10.26, "text": "*Trois preuves* à afficher"},
+  {"a": 10.71, "b": 13.72, "text": "*1.* Des avis clients,|*nom et entreprise.*"},
+  {"a": 14.16, "b": 17.47, "text": "*2.* Des réalisations,|*photos et résultats.*"},
+  {"a": 17.88, "b": 21.52, "text": "*3.* Certifications et références,|*à côté du bouton devis.*"},
+  {"a": 22.24, "b": 26.52, "text": "Chez Super Refer : des sites qui|*inspirent confiance.*"},
+  {"a": 27.09, "b": 28.54, "text": "Commentez|*« SEO »*"},
+  {"a": 28.83, "b": 30.32, "text": "pour réserver|*votre premier échange.*"}
+ ]
+}

@@ -1,0 +1,14 @@
+{
+ "dur": 27.2,
+ "phrases": [
+  {"a": 0, "b": 3.07, "text": "Pourquoi votre concurrent sort|*sur Google Maps, et pas vous ?*", "instant": true},
+  {"a": 3.62, "b": 5.48, "text": "Tout se joue sur|*sa fiche Google.*"},
+  {"a": 5.92, "b": 6.74, "text": "*Trois réglages*"},
+  {"a": 7.1, "b": 10.34, "text": "*1.* La bonne catégorie,|*celle que vos clients cherchent.*"},
+  {"a": 10.86, "b": 13.21, "text": "*2.* Des avis récents,|*et une réponse à chacun.*"},
+  {"a": 14.01, "b": 17.78, "text": "*3.* Une fiche par site,|*reliée à sa page ville.*"},
+  {"a": 18.62, "b": 22.05, "text": "Chez Super Refer, on pilote|*votre visibilité locale.*"},
+  {"a": 22.2, "b": 24.44, "text": "Commentez|*« SEO »*"},
+  {"a": 24.67, "b": 26.03, "text": "pour réserver|*votre premier échange.*"}
+ ]
+}
