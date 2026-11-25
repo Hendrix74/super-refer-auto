@@ -1,0 +1,17 @@
+{
+ "dur": 30.4,
+ "phrases": [
+  {"a": 0, "b": 1.66, "text": "Pourquoi mon site a|*moins de visites ?*", "instant": true},
+  {"a": 2.15, "b": 3.93, "text": "Souvent, ce n'est pas|*votre site.*"},
+  {"a": 4.39, "b": 6.72, "text": "Google répond directement,|*sans qu'on clique.*"},
+  {"a": 7.25, "b": 7.95, "text": "*Trois réflexes*"},
+  {"a": 8.55, "b": 12.13, "text": "*1.* Répondre aux questions|*d'avant l'achat.*"},
+  {"a": 12.44, "b": 13.6, "text": "Pour être|*la source citée.*"},
+  {"a": 14.07, "b": 15.82, "text": "*2.* Donner une|*raison de cliquer.*"},
+  {"a": 16.31, "b": 18.41, "text": "Devis, prix,|*simulateur.*"},
+  {"a": 19.02, "b": 21.4, "text": "*3.* Compter les *demandes,*|pas les visites."},
+  {"a": 22.1, "b": 25.41, "text": "Chez Super Refer, on pilote|*votre référencement Google et IA.*"},
+  {"a": 25.72, "b": 27.37, "text": "Commentez|*« SEO »*"},
+  {"a": 27.79, "b": 29.08, "text": "pour réserver|*votre premier échange.*"}
+ ]
+}
