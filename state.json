@@ -26,5 +26,22 @@
   }
  },
  "replied": [],
- "since": "2026-11-24T16:24:29.959392+00:00"
+ "since": "2026-11-24T16:24:29.959392+00:00",
+ "diag": {
+  "scopes": [
+   "pages_show_list",
+   "business_management",
+   "instagram_basic",
+   "instagram_manage_comments",
+   "instagram_manage_insights",
+   "instagram_content_publish",
+   "instagram_manage_messages",
+   "pages_read_engagement",
+   "public_profile"
+  ],
+  "type": "PAGE",
+  "profile_id": "1409774765559237",
+  "expires_at": 0,
+  "at": "2026-11-25T13:30:53.812956+00:00"
+ }
 }
