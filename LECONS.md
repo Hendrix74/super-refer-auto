@@ -25,3 +25,11 @@
 ## 25/11 — Changement de cap : 1 réel par jour, plus long et travaillé
 - Constat : réels du 19 au 24/11 (publiés à la main, peu nombreux) = 10 à 106 vues ; réels du 24 au 25/11 (6 par jour, même gabarit, même légende) = 0 à 5 vues.
 - Décision de Théo : refaire des réels travaillés différemment, durée utile pour répondre à la question. Les réels 39, 42, 43, 47, 48, 49 sont retirés du planning (gardés dans `config.json` → `en_reserve`, ne pas les reprogrammer sans son accord).
+
+## 26/11/2026 (session de 7 h 13)
+- YouTube Studio, « ont balayé » à J+1 : R45 (preuve sociale) 82 % sur 14 vues ; R40 (œuf, 8 s) 77 % sur 88 vues ; R44 (1re image = courbe qui chute) 56 % sur 17 vues — remonté depuis 43 % mais toujours le meilleur des réels du 25/11 → garder « problème visuel concret dès la 1re image ». R46 : 86,9 % de la vidéo regardée en moyenne, mais sur 3 vues seulement.
+- Les shorts les plus vus restent ceux publiés à la main du 19 au 23/11 (377 à 392 vues) ; les shorts du 25/11 font 0 à 16 vues, sauf R40 (88) → le format ultra-court sans voix tire encore les vues sur YouTube, mais 77 % de balayage.
+- Instagram : statistiques figées depuis le 25/11 15 h. Cause 1 : `auto.py` ne les relevait que si l'exécution tombait dans les 10 premières minutes de l'heure, ce que GitHub ne respecte pas → corrigé (relevé dès que `stats.json` a plus d'une heure, sans jamais l'écraser en cas d'erreur). Cause 2 : depuis le 26/11 vers 3 h, Meta refuse la clé (« Cannot call API for app … on behalf of user … », code 200) → Théo prévenu ; tant que ce n'est pas réglé, aucune publication ni réponse sur Instagram.
+- Voix : 1 300 caractères donnent 75 s brutes avec Umbriel. Pour viser 45-50 s au final (×1,05, marque et appel à l'action compris), le corps du texte doit faire environ 800 caractères (~17 caractères par seconde).
+- Contrôle de la marque : un « douteux » est sorti sur la phrase générée à part (transcrite « Supo Refer » / « Superefr », pas « Super SEO ») ; régénérée une fois → OK. Toujours la générer seule.
+- Appliqué au R51 : question entière + problème visible dès la 1re image (votre nom en gris sur la page du fournisseur, étiquette « aucun lien ») ; promesse « une action gratuite » dite avant 5 s ; réponse concrète en 3 étapes à 22-27 s ; exemple générique sans chiffre.
