@@ -74,8 +74,13 @@ def answer_comments():
 
 
 def collect_stats():
-    """Une fois par heure : statistiques des réels (pour l'apprentissage), écrites dans stats.json."""
-    if NOW.minute >= 10 and os.path.exists(os.path.join(HERE, 'stats.json')): return
+    """Au plus une fois par heure : statistiques des réels (pour l'apprentissage), écrites dans stats.json.
+    (Ne dépend plus de la minute d'exécution : GitHub ne lance les tâches planifiées que toutes les quelques heures.)"""
+    try:
+        last = dt.datetime.fromisoformat(json.load(open(os.path.join(HERE, 'stats.json'), encoding='utf-8'))['mis_a_jour'])
+        if (NOW - last).total_seconds() < 3300: return
+    except Exception:
+        pass
     metrics = 'reach,views,likes,comments,shares,saved,total_interactions,ig_reels_avg_watch_time,ig_reels_video_view_total_time'
     media = call('GET', f'/{IG_ID}/media', {'fields': 'id,caption,timestamp,permalink,media_product_type', 'limit': 50}).get('data', [])
     out = []
