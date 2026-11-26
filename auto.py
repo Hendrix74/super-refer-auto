@@ -82,7 +82,10 @@ def collect_stats():
     except Exception:
         pass
     metrics = 'reach,views,likes,comments,shares,saved,total_interactions,ig_reels_avg_watch_time,ig_reels_video_view_total_time'
-    media = call('GET', f'/{IG_ID}/media', {'fields': 'id,caption,timestamp,permalink,media_product_type', 'limit': 50}).get('data', [])
+    res = call('GET', f'/{IG_ID}/media', {'fields': 'id,caption,timestamp,permalink,media_product_type', 'limit': 50})
+    if 'error' in res or not res.get('data'):
+        print('Statistiques non mises à jour (erreur Meta) : stats.json conservé'); return
+    media = res['data']
     out = []
     for m in media:
         if m.get('media_product_type') != 'REELS': continue
