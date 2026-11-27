@@ -12,7 +12,7 @@
 - R38 Comment passer devant ses concurrents sur Google ? (une page par recherche, preuves, liens)
 - R39 Comment rendre son site rentable ? (être trouvé, faire agir, mesurer)
 
-Idées pas encore faites : « Le bouche-à-oreille suffit-il encore ? » ; « Comment attirer des candidats avec son site ? »
+Idées pas encore faites : « Le bouche-à-oreille suffit-il encore ? » (« Comment attirer des candidats » : fait en R52)
 
 - R40 Besoin d'un site internet ? (7,6 s, sans voix : bille qui tombe de la table puis « Épuré. Moderne. Performant. » — mécanique reprise d'un réel de @therealkylerschwartz signalé par Théo : 3 s d'image intrigante sans rapport, 3 mots, appel à l'action)
 
@@ -31,3 +31,5 @@ Idées pas encore faites : « Le bouche-à-oreille suffit-il encore ? » ; « Co
 - R50 Combien de temps pour remonter sur Google ? (52 s, NOUVEAU FORMAT : un seul décor qui évolue = page de résultats où « votre-entreprise.fr » remonte mois après mois ; exemple maintenance industrielle ; réponse tardive « 4 mois à 1 an », source : documentation Google « Do you need an SEO? » ; légende propre au réel) — composition autonome `r50.tsx`, mixage `audio/r50_mix.py`
 
 - R51 Comment être mieux placé sur Google, sans payer ? (50,6 s, programmé le 27/11 à 18 h : vos partenaires — fournisseur, fédération, salon, clients — vous citent déjà sans lien → les lister, chercher votre nom chez eux, demander un lien vers la bonne page ; exemple fabricant de portails industriels ; jamais de liens achetés) — mécanique de la pépite @qs_seo du 24/11 « Tu savais que tu pouvais booster ton site gratuitement comme ça ?! » (7 k vues, ~10× ses autres réels, 61 commentaires « Link », 59 partages) : question entière dès la 1re image + action gratuite méconnue. Décor unique : carte des relations de l'entreprise. Composition `r51.tsx`, mixage `audio/r51_mix.py` (marimba en majeur)
+
+- R52 Comment attirer plus de candidats ? (50,6 s, programmé le 28/11 à 18 h : les offres d'emploi peuvent sortir dans l'encadré « Offres d'emploi » de Google → une page par poste, le titre que les candidats tapent (« Soudeur », pas « Ninja de l'atelier »), lieu/horaires/salaire, marquage « offre d'emploi » (données structurées JobPosting) ; exemple chaudronnerie ; « vos offres d'emploi aussi, ça se référence ») — mécanique de la pépite @qs_seo du 25/11 « C'est FOU que personne ne sache qu'on peut faire ça sur nos FICHES Google » (12,6 k vues ≈ 15× sa moyenne, 117 commentaires, 96 enregistrements) : levier gratuit méconnu + réponse concrète. Décor unique : une recherche d'emploi sur Google + la page d'offre qui se construit. Composition `r52.tsx`, mixage `audio/r52_mix.py` (piano électrique en ré mineur, 92 bpm)
